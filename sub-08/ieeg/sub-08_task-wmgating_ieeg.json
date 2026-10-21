@@ -16,7 +16,6 @@
   "SamplingFrequency": 1000.0,
   "RecordingDuration": 270.333,
   "RecordingType": "epoched",
-  "EpochLength": 5.799,
   "ECOGChannelCount": 0,
   "SEEGChannelCount": 20,
   "DBSChannelCount": 0,

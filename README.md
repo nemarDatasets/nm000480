@@ -13,6 +13,8 @@ Methods), not the raw clinical recordings.
 - `sub-NN/ieeg/sub-NN_task-wmgating_ieeg.*`: the released `data.trial` epochs written back-to-back (one `New Segment` marker
   per trial; `events.tsv` gives each trial's position, its authors' time axis start (-1 s) and every `trialinfo` field as
   released: trl_num, context, congruency, stimuli, rt, acc, Rel, Irrel, stim1, stim2, stim3, digitStimuli, digit_position, target_position, distractor_position, s2_onset, s3_onset, resp_onset). Unit µV assumed (not stated in the release); values unchanged.
+- Trials have variable length (5.0-18.0 s: 1 s before the first item to 1 s after the response); `events.tsv` onset and
+  duration delimit each trial. The sidecars give no `EpochLength` (it held the median trial length, which matches no trial boundary).
 - Channel names are the bipolar pairs (e.g. `LF9-LF1`). The channel type is INFERRED from the pair numbering following the
   article's montage rule (sEEG: deep-surface neighbours, adjacent numbers; ECoG grids: row-by-row neighbours, non-adjacent
   numbers); the release itself does not state the electrode type per channel.
