@@ -15,7 +15,7 @@
   "ElectricalStimulation": false,
   "SamplingFrequency": 512.0,
   "RecordingDuration": 624.646484,
-  "RecordingType": "epoched",
+  "RecordingType": "discontinuous",
   "ECOGChannelCount": 0,
   "SEEGChannelCount": 42,
   "DBSChannelCount": 0,
